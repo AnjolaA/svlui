@@ -24,21 +24,4 @@
         process.env.VIDEO_ID=url;
         //browser.close();
       })
-    })
-
-    //      describe('Add Video', function(){
-    //     it('User can upload Video to SVL', function(){
-    //     HomePage.open();
-    //     HomePage.GoToLoginPage();
-    //     LoginPage.Login(process.env.USER_EMAIL, process.env.USER_PASSWORD);
-    //     browser.pause(2000);
-    //     LoginPage.open();
-    //     var newurl = "/#production/"+process.env.VIDEO_ID
-    //     browser.url(newurl);
-    //     browser.pause(10000);
-    //     process.env.VIDEO_ID=url;
-    //     console.log("End URL is "+ process.env.VIDEO_ID);
-    //     browser.keys("Enter");
-    //     browser.pause(5000);
-    //   })
-    // })
+  })

@@ -32,7 +32,6 @@ var HomePage = Object.create(Page, {
     GoToAddVideoPage: {
         value: function () {
             this.AddVideoButton.click()
-            browser.pause(3000);
         }
     },
         GoToLoginPage: {
